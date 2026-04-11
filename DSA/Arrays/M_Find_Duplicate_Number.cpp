@@ -23,11 +23,11 @@ int main()
         }
         for (auto it : freq)
         {
-            if (it.second == 1)
+            if (it.second == 2)
             {
                 cout << it.first;
             }
         }
-        cout << endl;
+        cout << '\n';
     }
 }
